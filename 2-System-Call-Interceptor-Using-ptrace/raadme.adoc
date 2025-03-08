@@ -1,8 +1,14 @@
 = System Call Interceptor
 
-image::https://github.com/AzarguNazari/beg-intmed-virtualization/blob/main/1-simple-process-virtual-machine-Stack-Based-VM/1-diagram.png[1-diagram.png][VM Diagram]
+image::https://github.com/AzarguNazari/beg-intmed-virtualization/blob/main/2-System-Call-Interceptor-Using-ptrace/2-diagram.png[https://github.com/AzarguNazari/beg-intmed-virtualization/blob/main/1-simple-process-virtual-machine-Stack-Based-VM/1-diagram.png][1-diagram.png][VM Diagram]
 
 A tool for intercepting and logging system calls using ptrace, similar to strace.
+
+== How to run it?
+```shell
+./run.sh
+```
+
 
 == Description
 
