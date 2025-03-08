@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+  syscall_interceptor:
+    image: linux
+    container_name: syscall_interceptor
+    platform: linux/amd64
+    volumes:
+      - .:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true
+    command: >
+      bash -c "gcc -o syscall_interceptor syscall_interceptor.c -Wall -Wextra &&
+               ./syscall_interceptor ls"

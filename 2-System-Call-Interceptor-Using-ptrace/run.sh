@@ -1,3 +1,3 @@
 #!/bin/bash
 
-gcc -o project project.c && ./project
+gcc -o project syscall_interceptor.c && ./syscall_interceptor ls
