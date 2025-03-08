@@ -1,9 +1,20 @@
-Description:
-Implement a simple virtual memory manager that simulates paging and address translation. Use a fixed-size page table to map virtual addresses to physical addresses.
+# Virtual Memory Manager Implementation
 
-Learn:
+## Overview
+This project implements a simple virtual memory manager that simulates paging and address translation using a fixed-size page table to map virtual addresses to physical addresses.
 
-How virtual memory works (page tables, page faults).
+## Learning Objectives
+- Understanding virtual memory concepts:
+    - Page tables
+    - Page faults
+    - Memory virtualization fundamentals
+- Practicing C programming concepts:
+    - Pointers
+    - Dynamic memory allocation
+    - Bitwise operations
 
-Basics of memory virtualization.
-C Concepts: Pointers, dynamic memory allocation, bitwise operations.
+## Technical Focus
+The implementation focuses on demonstrating the core mechanisms of:
+- Virtual-to-physical address translation
+- Page table management
+- Memory paging simulation
