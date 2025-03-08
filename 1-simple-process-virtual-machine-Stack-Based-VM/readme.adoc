@@ -1,6 +1,6 @@
 == Overview
 
-image::https://github.com/AzarguNazari/beg-intmed-virtualization/blob/main/1-simple-process-virtual-machine-Stack-Based-VM/1-diagram.png[1-diagram.png][VM Diagram, width=600, height=400]
+image::https://github.com/AzarguNazari/beg-intmed-virtualization/blob/main/1-simple-process-virtual-machine-Stack-Based-VM/1-diagram.png[1-diagram.png][VM Diagram]
 
 This project implements a stack-based virtual machine (VM) that can execute a custom bytecode instruction set. The VM provides fundamental operations for stack manipulation and arithmetic operations.
 
