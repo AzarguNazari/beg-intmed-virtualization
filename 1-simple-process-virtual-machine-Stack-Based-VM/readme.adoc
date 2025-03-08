@@ -4,6 +4,11 @@ image::https://github.com/AzarguNazari/beg-intmed-virtualization/blob/main/1-sim
 
 This project implements a stack-based virtual machine (VM) that can execute a custom bytecode instruction set. The VM provides fundamental operations for stack manipulation and arithmetic operations.
 
+== How to run it?
+```shell
+./run.sh
+```
+
 == Features
 
 * Stack-based execution model
